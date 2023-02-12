@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 public class Main{
-    public void main(String[] args) {
+    public void TreeTraversal(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the which type of tree-traversal you want to perform");
         System.out.println("1. Inorder Traversal");
