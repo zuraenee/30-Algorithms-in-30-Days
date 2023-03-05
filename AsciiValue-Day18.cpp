@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int AsciiValue() {
     string c;
     int totalValue;
     cout << "Enter a String : ";
