@@ -87,8 +87,6 @@ class binarySearchTree():
             self._print_preorder_aux(current.right)
 
 
-
-
 bst = binarySearchTree()
 bst.insert(24)
 bst.insert(4)
