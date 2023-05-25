@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner; //we need to import the Scanner class in order to use it
-public class SimpleErrorsinGCD {
+public class SimpleErrorsinGCD{
 
     public void main(String[] args) {
 
