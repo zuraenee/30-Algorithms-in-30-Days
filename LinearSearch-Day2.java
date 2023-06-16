@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-public class LinearSearcho{
+public class LinearSearch{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array you want to insert : ");
