@@ -4,6 +4,13 @@
 
 My take on the idea of "50 Projects in 50 days" except with simple algorithms.<br/><br/>
 
+### RandomGuess - Day 1
 
-**Selection Sort** - Selects the smallest value in the list and moves it into index 0, index 0 is then excluded from the next sorting recursion so that the algorithm can select the 2nd smallest value and move it into index 1. Now index 0 and index 1 is excluded from the list in order for the algorithm to find the 3rd smallest value of the list. The final product will be a sorted list with value from smallest to largest. <br/><br/>
-**Bubble Sort** - The algorithm starts with values in index 0 and index 1, if value in index 1 is smaller than value in index 0, then the value in index 1 switches with value in index 0, the algorithm will continue to swap values in index[i] with index[i+1] until the final list is sorted from smallest value to largest value. This recursion sort can repeat multiple times until final sorting is done.
+This algorithm is a guessing game that generates a random number between 1 and 100 and asks the user to guess it. The program then tells the user if their guess was too high or too low. The algorithm continues to ask the user to guess until they guess the correct number.
+
+### LinearSearch - Day 2
+
+The linear search algorithm is a simple algorithm for finding an element in an array. It works by sequentially checking each element in the array until the element is found or the end of the array is reached. If the element is found, the algorithm returns the index of the element. If the element is not found, the algorithm returns -1.
+The linear search algorithm is a very simple algorithm, but it is also very inefficient. The time complexity of the linear search algorithm is O(n), where n is the number of elements in the array. This means that the algorithm will take on average n/2 steps to find an element in the array.
+The linear search algorithm is often used as a benchmark for other search algorithms. It is also used in situations where the array is small and the cost of comparing elements is low.
+
