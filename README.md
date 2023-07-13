@@ -34,9 +34,22 @@ Inorder traversal visits the left subtree of a node, then the node itself, and t
 
 ### Multiples of 3 and 5 - Day 7
 
-The algorithm you provided is a simple program that sums the multiples of 3 and 5 from 1 to 1000. The program first initializes a variable called `sum` to 0. Then, it uses a for loop to iterate from 0 to 1000. In each iteration, the program checks if the current number is divisible by 3 or 5. If it is, the program adds the number to `sum`. Finally, the program prints the value of `sum` to the console.
+The algorithm is a simple program that sums the multiples of 3 and 5 from 1 to 1000. The program first initializes a variable called `sum` to 0. Then, it uses a for loop to iterate from 0 to 1000. In each iteration, the program checks if the current number is divisible by 3 or 5. If it is, the program adds the number to `sum`. Finally, the program prints the value of `sum` to the console.
 The algorithm is simple and efficient. It runs in O(n) time, where n is the number of numbers from 1 to 1000.
 
 ### Heap Sort - Day 8
 
+The heap sort algorithm is a sorting algorithm that works by building a heap, which is a data structure that is a complete binary tree in which the value of each node is greater than or equal to the values of its children. The heap sort algorithm works by repeatedly extracting the maximum element from the heap and placing it at the end of the sorted array. This process is repeated until the heap is empty, at which point the array will be sorted.
+The heap sort algorithm is a very efficient sorting algorithm, and it has a time complexity of O(n log n). However, it is not a stable sorting algorithm, which means that it does not preserve the original order of equal elements in the array.
 
+### Even Fibonacci Sequence - Day 9
+
+The algorithm is a simple implementation of the Fibonacci sequence. The Fibonacci sequence is a sequence of numbers where each number is the sum of the two previous numbers. The first two numbers in the Fibonacci sequence are 0 and 1. The third number is 0 + 1 = 1. The fourth number is 1 + 1 = 2. The fifth number is 1 + 2 = 3. And so on.
+The algorithm you provided works by first initializing two variables, firstNumber and secondNumber, to 0 and 1, respectively. It then iterates through the numbers from 0 to 4000000. In each iteration, it calculates the next number in the Fibonacci sequence by adding the previous two numbers. It then checks if the current number is even. If it is, it adds the number to the variable sumOfEven.
+At the end of the algorithm, the variable sumOfEven will contain the sum of all the even numbers in the Fibonacci sequence up to 4000000.
+
+### Largest Palindrome - Day 10
+
+The algorithm is a simple brute force algorithm for finding the largest palindrome made from the product of two 3-digit numbers. It works by iterating through all possible pairs of 3-digit numbers and checking if the product of the two numbers is a palindrome. A palindrome is a number that reads the same backwards and forwards. The algorithm uses a simple function to check if a number is a palindrome. The function works by first converting the number to a string, then reversing the string, and then converting the reversed string back to a number. If the original number and the reversed number are equal, then the number is a palindrome.
+The algorithm is simple to implement, but it is not very efficient. The time complexity of the algorithm is O(n^2), where n is the number of 3-digit numbers. This is because the algorithm has to iterate through all possible pairs of 3-digit numbers.
+There are more efficient algorithms for finding the largest palindrome made from the product of two 3-digit numbers. One such algorithm is the Rabin-Karp algorithm. The Rabin-Karp algorithm works by first converting the two 3-digit numbers to strings. The algorithm then uses a hash function to hash the two strings. The hash function is a function that takes a string as input and returns a unique integer value. The algorithm then uses the hash function to find all possible palindromes that can be made from the two 3-digit numbers. The time complexity of the Rabin-Karp algorithm is O(n), where n is the length of the two 3-digit numbers.
