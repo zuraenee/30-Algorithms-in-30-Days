@@ -27,4 +27,16 @@ The Selection Sort algorithm sorts an array by repeatedly finding the minimum el
 The Bubble Sort algorithm is a simple sorting algorithm that works by repeatedly comparing adjacent elements in an array and swapping them if they are in the wrong order. The algorithm continues to do this until the array is sorted.
 The Bubble Sort algorithm is inefficient for large arrays, but it is still a useful algorithm to learn because it is easy to understand and implement.
 
+### Tree Traversal - Day 6
+
+Tree traversal is an algorithm that visits all the nodes of a tree in a specific order. There are three main types of tree traversal algorithms: inorder, preorder, and postorder.
+Inorder traversal visits the left subtree of a node, then the node itself, and then the right subtree. Preorder traversal visits the node itself, then the left subtree, and then the right subtree. Postorder traversal visits the right subtree of a node, then the left subtree, and then the node itself.
+
+### Multiples of 3 and 5 - Day 7
+
+The algorithm you provided is a simple program that sums the multiples of 3 and 5 from 1 to 1000. The program first initializes a variable called `sum` to 0. Then, it uses a for loop to iterate from 0 to 1000. In each iteration, the program checks if the current number is divisible by 3 or 5. If it is, the program adds the number to `sum`. Finally, the program prints the value of `sum` to the console.
+The algorithm is simple and efficient. It runs in O(n) time, where n is the number of numbers from 1 to 1000.
+
+### Heap Sort - Day 8
+
 
