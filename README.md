@@ -73,28 +73,59 @@ When the outer for loop has finished iterating, the program terminates.
 
 ### FLoat Stack Algorithm - Day 14
 
-
+A float stack is a data structure that stores a list of floating-point numbers. It is similar to a stack, in that elements can only be added to the top of the stack or removed from the top of the stack. However, a float stack also supports the operation of peeking at the top element of the stack without removing it.
+The following is an algorithm for implementing a float stack:
+1. Create a new array to store the elements of the stack.
+2. Initialize the stack pointer to -1.
+3. To push an element onto the stack, do the following:
+1. Increment the stack pointer.
+2. Store the element at the index of the stack pointer.
+4. To pop an element from the stack, do the following:
+1. Decrement the stack pointer.
+2. Return the element at the index of the stack pointer.
+5. To peek at the top element of the stack, do the following:
+1. Return the element at the index of the stack pointer.
+The stack pointer is a variable that keeps track of the index of the top element of the stack. When an element is pushed onto the stack, the stack pointer is incremented. When an element is popped from the stack, the stack pointer is decremented.
+The array used to store the elements of the stack must be large enough to hold all of the elements that will be pushed onto the stack. If the stack becomes full, an error will be thrown.
+The float stack algorithm is a simple and efficient way to store a list of floating-point numbers. It is used in a variety of applications, such as computer graphics, scientific computing, and engineering.
 
 ### Reverse Addition - Day 15
 
+The algorithm first asks the user to input two numbers. Then, it uses the reverseNum() method to reverse the order of the digits in each number. The reverseNum() method works by repeatedly dividing the number by 10 and taking the remainder. The remainder is then added to a running total, which is multiplied by 10 each time. This process continues until the number is 0. Finally, the algorithm adds the two reversed numbers together and prints the sum.
 
 ### Coin Sum Generator - Day 16
 
+This algorithm generates the different ways to make a given amount of money using a set of coins. The algorithm works by first initializing an array of size num+1, where num is the amount of money to be made. The first element of the array is initialized to 1, as there is only one way to make 0 money.
+For each coin in the set, the algorithm iterates through the array from coins[i] to num and adds ways[j-coins[i]] to ways[j]. This represents the number of ways to make j money using the first i coins, plus the number of ways to make j-coins[i] money using the first i coins.
+The algorithm terminates when it has iterated through all of the coins in the set. The final value of ways[num] is the number of ways to make num money using the given set of coins.
 
 ### Password Generator - Day 17
 
+The algorithm generates passwords of a given length by randomly selecting characters from a set of characters that includes numbers, symbols, and letters. The algorithm first selects a random number from 0 to 3, which represents the type of character to be generated. If the random number is 0, then a number is generated. If the random number is 1, then a symbol is generated. If the random number is 2, then a lowercase letter is generated. If the random number is 3, then an uppercase letter is generated. The generated character is then printed to the console. The algorithm repeats this process until the desired length of password has been generated.
 
 ### Ascii Value - Day 18
 
+The algorithm is a simple program that takes a string as input and prints the total ASCII value of the string, as well as the ASCII value of each character in the string.
+The program first declares a string variable called `c` and an integer variable called `totalValue`. It then prompts the user to enter a string and stores the input in the `c` variable.
+The program then uses a for loop to iterate over the characters in the `c` variable. In each iteration, the program adds the ASCII value of the current character to the `totalValue` variable.
+Once the for loop has finished, the program prints the total ASCII value of the string and the ASCII value of each character in the string.
+The program is a simple example of how to use the ASCII value of a character. ASCII is a character encoding standard that assigns a unique number to each character in the English alphabet, as well as a number of other characters. The ASCII value of a character can be used to represent the character in a computer program.
 
 ### Pyramid Generator - Day 19
 
+BLACKBOX AI
+This algorithm is a program that prints a diamond shape. The program first asks the user to enter the number of rows in the diamond. Then, it uses a for loop to iterate over the rows. In each iteration, the program prints a number of spaces equal to the number of rows minus the current row number. Then, it prints a number of dollar signs equal to twice the current row number minus one. Finally, the program prints a newline character.
+The program is a simple example of how to use for loops and conditional statements to control the flow of a program.
 
 ### Matrix Keypad - Day 20
 
+This algorithm is a program that takes a string as input and outputs the same string, but with all the vowels removed. The vowels in the English language are: a, e, i, o, and u. The program uses a for loop to iterate over the characters in the input string. For each character, the program checks if it is a vowel. If the character is a vowel, the program removes it from the string. Otherwise, the character is left in the string. The program then outputs the resulting string.
+The program is a simple example of how to use a for loop to iterate over a string. It is also a simple example of how to use the in operator to check if a character is a member of a set.
 
 ### Binary To Decimal Conversion - Day 21
 
+This algorithm converts a binary number to a decimal number. The algorithm first takes a binary number as input. It then iterates over the binary number, starting from the rightmost digit. For each digit, the algorithm multiplies the digit by 2 to the power of the current index. The algorithm then adds the results of these multiplications to get the decimal equivalent of the binary number.
+The algorithm is a simple example of how to convert a binary number to a decimal number. It is also a simple example of how to use the pow() function to raise a number to a power.
 
 ### Character Frequency - Day 22
 
