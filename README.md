@@ -64,8 +64,48 @@ This algorithm is a simple program that takes a number as input and prints the s
 
 ### Multiplication Table - Day 13
 
+The program starts by importing the Scanner class. This class allows the program to read input from the user.
+The main method of the program then creates a Scanner object and prompts the user to enter the size of the multiplication table. The user input is stored in the variable x.
+The program then uses a for loop to iterate through the values from 1 to x. For each value of i, the program uses another for loop to iterate through the values from 1 to i.
+Inside the inner for loop, the program prints the value of i multiplied by j. The program then prints a new line.
+After the inner for loop has finished iterating, the outer for loop increments i and repeats the process.
+When the outer for loop has finished iterating, the program terminates.
 
 ### FLoat Stack Algorithm - Day 14
 
 
+
 ### Reverse Addition - Day 15
+
+
+### Coin Sum Generator - Day 16
+
+
+### Password Generator - Day 17
+
+
+### Ascii Value - Day 18
+
+
+### Pyramid Generator - Day 19
+
+
+### Matrix Keypad - Day 20
+
+
+### Binary To Decimal Conversion - Day 21
+
+
+### Character Frequency - Day 22
+
+
+### Matrix - Day 23
+
+
+### Student Marking System - Day 24
+
+
+### Binary Search Tree - Day 25
+
+
+### Binary Overloading - Day 26
