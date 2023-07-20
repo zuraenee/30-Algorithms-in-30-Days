@@ -53,3 +53,19 @@ At the end of the algorithm, the variable sumOfEven will contain the sum of all 
 The algorithm is a simple brute force algorithm for finding the largest palindrome made from the product of two 3-digit numbers. It works by iterating through all possible pairs of 3-digit numbers and checking if the product of the two numbers is a palindrome. A palindrome is a number that reads the same backwards and forwards. The algorithm uses a simple function to check if a number is a palindrome. The function works by first converting the number to a string, then reversing the string, and then converting the reversed string back to a number. If the original number and the reversed number are equal, then the number is a palindrome.
 The algorithm is simple to implement, but it is not very efficient. The time complexity of the algorithm is O(n^2), where n is the number of 3-digit numbers. This is because the algorithm has to iterate through all possible pairs of 3-digit numbers.
 There are more efficient algorithms for finding the largest palindrome made from the product of two 3-digit numbers. One such algorithm is the Rabin-Karp algorithm. The Rabin-Karp algorithm works by first converting the two 3-digit numbers to strings. The algorithm then uses a hash function to hash the two strings. The hash function is a function that takes a string as input and returns a unique integer value. The algorithm then uses the hash function to find all possible palindromes that can be made from the two 3-digit numbers. The time complexity of the Rabin-Karp algorithm is O(n), where n is the length of the two 3-digit numbers.
+
+### Fixed Array - Day 11
+
+This algorithm merges two arrays into one. The program first asks the user to enter the size of the two arrays. Then, it creates two arrays of the specified size and a third array that will hold the merged arrays. The program then loops through the first array and adds each element to the third array. It then loops through the second array and adds each element to the third array, starting at the index where the first array ended. Finally, the program prints the merged array to the console.
+
+### Sum Square Difference - Day 12
+
+This algorithm is a simple program that takes a number as input and prints the sum of all the numbers from 1 to that number. The program first initializes a variable called sum to 0. It then loops from 1 to the input number, adding each number to the sum variable. Finally, the program prints the value of the sum variable.
+
+### Multiplication Table - Day 13
+
+
+### FLoat Stack Algorithm - Day 14
+
+
+### Reverse Addition - Day 15
