@@ -1,6 +1,5 @@
 # 30-algorithms-in-30-days 😄
 <p align="center">
-<img width="878" src="50 Algorithms In 50 Days.png" alt="50 Algorithms In 50 Days.png" alt="my banner"> </p>
 
 My take on the idea of "50 Projects in 50 days" except with simple algorithms.<br/><br/>
 
